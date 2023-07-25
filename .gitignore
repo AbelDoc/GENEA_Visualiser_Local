@@ -1,0 +1,10 @@
+.idea
+*.pyc
+*.ckpt
+*.pkg
+results/*
+logs/*
+res/*
+*.yaml
+*.png
+*.bvh
