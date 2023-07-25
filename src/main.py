@@ -28,7 +28,9 @@ def render(input, output, blender_path):
             output,
         ],
         shell=True,
+        # If you want to silence blender process, use DEVNULL
         stdout=sys.stdout,
+        # stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
     )
 
